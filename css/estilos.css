@@ -46,7 +46,26 @@ header .menu__header {
   justify-content: flex-end;
 }
 
-header .menu__item {
+header .menu {
+  list-style: none;
+  text-align: right;
+}
+
+header .menu a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 40px 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+/* header .menu__item {
   list-style: none;
   text-align: right;
 }
@@ -63,7 +82,7 @@ header .menu__header .menu__item-link {
 
 header .menu__item .menu__item-link:hover {
   text-decoration: underline;
-}
+} */
 
 header .textos {
   width: 100%;
